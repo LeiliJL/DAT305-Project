@@ -13,6 +13,10 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error
+from sklearn.metrics import mean_squared_error
+from sklearn.metrics import r2_score
+from sklearn.dummy import DummyRegressor
+from sklearn.ensemble import RandomForestRegressor
 import xgboost
 import shap
 
