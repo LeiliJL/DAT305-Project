@@ -1,0 +1,5 @@
+Model,Train MAE,Test MAE,Train R2,Test R2,Error factor
+Random Forest,0.235,0.413,0.859,0.623,2.585
+XGBoost,0.448,0.483,0.694,0.598,3.04
+Linear Regression,0.609,0.627,0.472,0.393,4.235
+DummyRegressor,0.857,0.862,0.0,-0.0,7.27
