@@ -17,6 +17,9 @@ from sklearn.metrics import mean_squared_error
 from sklearn.metrics import r2_score
 from sklearn.dummy import DummyRegressor
 from sklearn.ensemble import RandomForestRegressor
+from sklearn.model_selection import GroupKFold
+from sklearn.model_selection import cross_validate
+from sklearn.model_selection import GridSearchCV
 import xgboost
 import shap
 
